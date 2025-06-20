@@ -941,7 +941,7 @@ strong {
 .contact-form .form-control,
 .booking-form .form-control {
   background-color: transparent;
-  border-color: rgba(255, 255, 255, 0.25);
+  border-color: rgb(253, 253, 253);
 }
 
 .booking-form .form-control {

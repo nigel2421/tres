@@ -871,7 +871,7 @@ body {
         color: #ce873a; }
       .ps-list--social li a.facebook i {
         color: #3b5998; }
-      .ps-list--social li a.twitter i {
+      .ps-list--social li a.instagram i {
         color: #0084b4; }
       .ps-list--social li a.google-plus i {
         color: #FF0000; }
@@ -904,9 +904,9 @@ body {
         background-color: #1b4e9b; }
         .ps-list--social-color li a.facebook:hover {
           background-color: #296fda; }
-      .ps-list--social-color li a.twitter {
+      .ps-list--social-color li a.instagram {
         background-color: #00aeef; }
-        .ps-list--social-color li a.twitter:hover {
+        .ps-list--social-color li a.instagram:hover {
           background-color: #3dcaff; }
       .ps-list--social-color li a.google-plus {
         background-color: #cc0000; }
