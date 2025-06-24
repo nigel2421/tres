@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Los Tres Macarons</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../macarons/css/bootstrap.min.css"> <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo">Los Tres Macarons</a>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="flavors.html">Flavors</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="contact-page py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10">
+                    <h1 class="text-center mb-4 display-4">Get in Touch</h1>
+                    <p class="text-center lead mb-5">
+                        Have a question, a special request, or just want to say hello?
+                        Fill out the form below, and we'll get back to you as soon as possible.
+                    </p>
+
+                    <div class="card shadow-lg border-0 rounded-3">
+                        <div class="card-body p-md-5">
+                            <form>
+                                <div class="row mb-3">
+                                    <div class="col-md-6">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" class="form-control" id="subject" placeholder="Regarding your order, a custom request, etc.">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="6" placeholder="Your message here..." required></textarea>
+                                </div>
+                                <div class="d-grid">
+                                    <button type="button" id="sendMessageBtn" class="btn btn-primary btn-lg">Send Message</button>
+                                </div>
+                                <!-- The previous "Share on WhatsApp" button (for sharing the page) has been removed to avoid confusion and streamline the contact form's primary action. -->
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-5 pt-3">
+                        <h2 class="mb-3">Find Us Here</h2>
+                        <p class="fs-5 mb-1"><strong>Phone:</strong> <a href="tel:+254723734211" class="text-decoration-none">+254 723 734211</a></p>
+                        <p class="fs-5 mb-1"><strong>Email:</strong> <a href="mailto:info@lostresmacarons.com" class="text-decoration-none">info@lostresmacarons.com</a></p>
+                        <p class="fs-5"><strong>Address:</strong> 123 Macaron Lane, Nairobi, Kenya</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>© 2024 Los Tres Macarons. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <!-- Optional: Include Bootstrap JS if you plan to use Bootstrap's interactive components (e.g., modals, carousels) -->
+    <!-- <script src="../macarons/js/bootstrap.min.js"></script> -->
+</body>
+</html>
